@@ -8,8 +8,7 @@
     "lint": "eslint bookshelf.js lib/",
     "cover": "npm run lint && nyc mocha --check-leaks -t 10000 -b",
     "test": "npm run lint && mocha --check-leaks -t 10000 -b",
-    "jsdoc": "./scripts/jsdoc.sh",
-    "postpublish": "./scripts/postpublish.sh"
+    "jsdoc": "./scripts/jsdoc.sh"
   },
   "homepage": "https://bookshelfjs.org",
   "repository": {
